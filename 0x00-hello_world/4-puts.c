@@ -1,6 +1,12 @@
-# include <stdio.h>
+#include <stdio.h>
+/*
+  * main start point
+  *
+  * Description: program print with puts function
+  *
+  * Return: 0  sucsss
+*/
 int main(void)
-	/***main start point*/
 {
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
