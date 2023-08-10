@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
-  * main start point
-  *
-  * Description: program print with puts function
-  *
-  * Return: 0  sucsss
+ * main start point
+ *
+ * Description: program print with puts function
+ *
+ * Return: 0  sucsss
 */
 int main(void)
 {
