@@ -3,7 +3,7 @@
 /**
  * main start point
  *
- * Description: program print with puts function
+ * Description: A program that use puts function to print with new line
  *
  * Return: 0  sucsss
 */
