@@ -15,7 +15,7 @@ for (i = 0; i <= 9 ; i++)
 {
 for (count = 0; count <= 9 ; count++)
 {
-printf("%d, ", i * count);
+printf("%d,  ", i * count);
 }
 printf("\n");
 }
