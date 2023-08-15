@@ -17,13 +17,14 @@ _putchar('0');
 for (count = 1; count <= 9 ; count--)
 {
 	num = i * count;
-	printf("%d, ", num);
+        _putchar(',');
+	_putchar(' ');
 	if (num <= 9)
-	printf(' ');
+	_putchar(' ');
 	else
-	printf("%d", num / 10);
-	printf("%d", num % 10);
+	_putchar(( num / 10) + 48);
+	printf((num % 10) + 48);
 }
-printf("\n");
+_putchar('\n');
 }
 }
