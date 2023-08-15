@@ -13,7 +13,8 @@ int i, count, num;
 
 for (i = 0; i <= 9 ; i++)
 {
-for (count = 0; count <= 9 ; count++)
+_putchar('0');
+for (count = 1; count <= 9 ; count--)
 {
 	num = i * count;
 	printf("%d, ", num);
