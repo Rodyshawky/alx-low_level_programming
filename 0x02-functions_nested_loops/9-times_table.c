@@ -17,6 +17,11 @@ for (count = 0; count <= 9 ; count++)
 {
 	num = i * count;
 	printf("%d, ", num);
+	if (num <= 9)
+	printf(' ');
+	else
+	printf(num / 10);
+	printf(num % 10);
 }
 printf("\n");
 }
