@@ -3,15 +3,16 @@
 
 /**
  * _abs -absluote value of number
- *
- * Return: On success n.
+ * @n: input number of _abs function
+ * Return: On success 0.
  */
 
 int _abs(int n)
 {
-
+int n;
 if (n < 0)
-return (n * -1);
+n = n * (-1);
+return (n);
 else if (n > 0)
 return (n);
 else
