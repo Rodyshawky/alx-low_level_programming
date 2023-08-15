@@ -20,8 +20,8 @@ for (count = 0; count <= 9 ; count++)
 	if (num <= 9)
 	printf(' ');
 	else
-	printf(num / 10);
-	printf(num % 10);
+	printf("%d", num / 10);
+	printf("%d", num % 10);
 }
 printf("\n");
 }
