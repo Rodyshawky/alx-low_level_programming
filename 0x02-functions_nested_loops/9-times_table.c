@@ -16,6 +16,7 @@ for (i = 0; i <= 9 ; i++)
 for (count = 0; count <= 9 ; count++)
 {
 	num = i * count;
+	printf("%d, ",num);
 }
 printf("\n");
 }
