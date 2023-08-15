@@ -14,16 +14,16 @@ int i, count, num;
 for (i = 0; i <= 9 ; i++)
 {
 _putchar('0');
-for (count = 1; count <= 9 ; count--)
+for (count = 1; count <= 9 ; count++)
 {
-        _putchar(',');
-	_putchar(' ');
-	num = i * count;
-	if (num <= 9)
-	_putchar(' ');
-	else
-	_putchar(( num / 10) + 48);
-	_putchar((num % 10) + 48);
+_putchar(',');
+_putchar(' ');
+num = i * count;
+if (num <= 9)
+_putchar(' ');
+else
+_putchar((num / 10) + 48);
+_putchar((num % 10) + 48);
 }
 _putchar('\n');
 }
