@@ -2,12 +2,10 @@
 #include"main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - print the lowercase characters
  *
- * Description: print alphabitic lowercase letters
- *
- * Return: Always 0 (Success)
- */
+ * Return: No value retun
+*/
 
 void print_alphabet(void)
 {
