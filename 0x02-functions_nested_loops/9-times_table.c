@@ -13,7 +13,7 @@ int i, count, num;
 
 for (i = 0; i <= 9 ; i++)
 {
-for (count = 0; count <= 9 ; count++)
+for (count = 0; count < 9 ; count++)
 {
 	num = i * count;
 if (num < 9)
