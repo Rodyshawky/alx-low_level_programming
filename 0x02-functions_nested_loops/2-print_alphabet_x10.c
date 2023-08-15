@@ -14,10 +14,9 @@ char ch = 'a';
 int i;
 for (i = 0 ; i < 10 ; i++)
 {
-while (ch <= 'z')
+for ( ; ch <= 'z'; ch++)
 {
 _putchar(ch);
-ch++;
 }
 _putchar('\n');
 }
