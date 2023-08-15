@@ -16,9 +16,9 @@ for (i = 0; i <= 9 ; i++)
 _putchar('0');
 for (count = 1; count <= 9 ; count--)
 {
-	num = i * count;
         _putchar(',');
 	_putchar(' ');
+	num = i * count;
 	if (num <= 9)
 	_putchar(' ');
 	else
