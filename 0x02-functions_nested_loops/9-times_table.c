@@ -23,7 +23,7 @@ for (count = 1; count <= 9 ; count--)
 	_putchar(' ');
 	else
 	_putchar(( num / 10) + 48);
-	printf((num % 10) + 48);
+	_putchar((num % 10) + 48);
 }
 _putchar('\n');
 }
