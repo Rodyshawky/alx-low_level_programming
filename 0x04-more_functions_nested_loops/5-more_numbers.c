@@ -3,7 +3,7 @@
 /**
  * more_numbers - print numbers from 0 to 18 ten times
  *
- * Return: Always 0 (Success)
+ * Return: not return any value.
  */
 
 void more_numbers(void)
