@@ -15,7 +15,7 @@ int row, colunm;
 	for (row = 1; row <= size ; row++)
 	{
 		for (colunm = 1; colunm <= size; colunm++)
-			_putchar('#');
+		_putchar('#');
 		_putchar('\n');
 	}
 }
