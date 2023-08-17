@@ -17,10 +17,10 @@ if (n <= 0)
 _putchar('\n');
 }
 else
-{
 for (line = 1; line <= n; line++)
-for (p = 1; p <= line; p++)
-_putchar(' ');
+{
+	for (p = 1; p <= line; p++)
+	_putchar(' ');
 _putchar(92);
 _putchar('\n');
 }
