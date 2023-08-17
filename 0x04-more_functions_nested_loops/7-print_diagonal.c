@@ -20,8 +20,8 @@ int line, p;
 		{
 			for (p = 0; p <= line; p++)
 				_putchar(' ');
-		_putchar(92);
-		_putchar('\n');
+			_putchar(92);
+			_putchar('\n');
 		}
         }
 }
