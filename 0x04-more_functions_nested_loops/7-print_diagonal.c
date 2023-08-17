@@ -16,11 +16,11 @@ int line, p;
 		_putchar('\n');
 	else
 	{
-		for (line = 0; line <= n; line++)
+		for (line = 0; line < n; line++)
 		{
 			for (p = 0; p <= line; p++)
 				_putchar(' ');
-		_putchar('\\');
+		_putchar(92);
 		_putchar('\n');
 		}
         }
