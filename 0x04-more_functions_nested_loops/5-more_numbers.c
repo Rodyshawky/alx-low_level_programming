@@ -20,6 +20,6 @@ for (num = 0; num < 15; num++)
 	}
 	_putchar(num + 48);
 }
-}
 _putchar('\n');
+}
 }
