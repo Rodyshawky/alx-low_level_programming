@@ -24,5 +24,4 @@ int line, p;
 			_putchar('\n');
 		}
 	}
-
 }
