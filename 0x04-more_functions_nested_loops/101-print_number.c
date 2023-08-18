@@ -11,22 +11,14 @@
 void print_number(int n)
 {
 
-	if (n == 0)
-		_putchar(48);
-	else if (n > 0)
+	if (n < 0)
 	{
-		while (n >= 1)
+		_putchar('-');
+		n = -1 * n;
+	}
+		while ((n / 10) > 0)
 		{
 			_putchar(n % 10 + 48);
 			n = n / 10;
 		}
-	}
-	else
-	{
-		while (n <= -1)
-		{
-			_putchar(n % 10 + 48);
-			n = n / 10;
-		}
-	}
 }
