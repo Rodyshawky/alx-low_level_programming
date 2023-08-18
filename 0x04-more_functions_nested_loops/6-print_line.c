@@ -1,3 +1,5 @@
+#include"main.h"
+
 /**
  * print_line - print line by number n
  *
@@ -14,7 +16,7 @@ if (n <= 0)
 {
 	_putchar('\n');
 }
-	else if (n > 0)
+	else
 	{
 	for (i = 1; i <= n; i++)
 	{
