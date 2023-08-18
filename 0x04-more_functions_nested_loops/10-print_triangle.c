@@ -8,7 +8,7 @@
  * Return: Always 0 (sucsses)
  */
 
-void print_square(int size)
+void  print_triangle(int size)
 {
 int i, j;
 if (size <= 0)
