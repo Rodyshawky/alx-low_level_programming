@@ -11,15 +11,17 @@
 void print_number(int n)
 {
 
-	if (n < 0)
+	if (n == 0)
 	{
-		_putchar('-');
-		n = -1 * n;
+		_putchar('0');
+
 	}
+	else
+	{
 		while ((n / 10) > 0)
 		{
-			print_number(n / 10);
 			_putchar(n % 10 + 48);
 			n = n / 10;
 		}
+	}
 }
