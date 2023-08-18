@@ -18,6 +18,7 @@ void print_number(int n)
 	}
 		while ((n / 10) > 0)
 		{
+			print_number(n / 10);
 			_putchar(n % 10 + 48);
 			n = n / 10;
 		}
