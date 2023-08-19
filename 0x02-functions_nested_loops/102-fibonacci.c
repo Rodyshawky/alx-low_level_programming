@@ -18,7 +18,7 @@ int main(void)
 	x = n;
 	n = swap + x;
 	if (n < 0)
-		printf("%d ,", (-1)* n);
+		printf("%d ,", (-1) * n);
 	else
 		 printf("%d ,", n);
 	}
