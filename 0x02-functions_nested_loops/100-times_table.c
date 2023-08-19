@@ -9,15 +9,12 @@
 
 void print_times_table(int n)
 {
-int i, j;
+int i;
 
 for (i = 0; i <= n; i++)
 {
-	for (j = 0; j <= n; j++)
-	{
+	putchar(48);
 	printf("%d, ", i);
-	if (i == j)
-		putchar(48);
 	if (n == 0 || n > 15)
 	break;
 	}
