@@ -11,7 +11,7 @@ int main(void)
 	int x = 1;
 	int i, swap;
 
-	printf("%d", n);
+	printf("%d ,", n);
 	for (i = 1; i <= 50; i++)
 	{
 	swap = x;
