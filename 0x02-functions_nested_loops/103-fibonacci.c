@@ -9,7 +9,7 @@ int main(void)
 {
 int n = 1;
 int x = 1;
-int i, swap;
+int swap;
 double sum = 0;
 
 while (sum < 4000000)
