@@ -22,6 +22,6 @@ if (n % 2 == 0)
 sum = sum + n;
 }
 }
-printf("%d \n", sum);
+printf("%d\n", sum);
 return (0);
 }
