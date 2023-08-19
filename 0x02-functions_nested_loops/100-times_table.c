@@ -15,7 +15,7 @@ for (i = 0; i <= n ; i++)
 {
 	printf("0, ");
 	printf("%d, ", i);
-	if (n == 0 || n > 15)
+	if (n <= 0 || n > 15)
 	break;
 }
 printf("\n");
