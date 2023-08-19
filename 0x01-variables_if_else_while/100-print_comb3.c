@@ -15,6 +15,8 @@ for (i = 0; i < 10 ; i++)
 {
 	if (j != i && i == 0)
 		continue;
+	if ( i == j)
+                continue;
 	putchar(j + 48);
 	putchar(i + 48);
 	putchar(',');
