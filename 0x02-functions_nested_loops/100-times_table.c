@@ -17,7 +17,7 @@ for (i = 0; i <= n ; i++)
 	{
 	if (n < 0 || n > 15)
         	break;
-	printf("%d,  ", i * j);
+	printf("%d, ", i * j);
 	}
 	printf("\n");
 }
