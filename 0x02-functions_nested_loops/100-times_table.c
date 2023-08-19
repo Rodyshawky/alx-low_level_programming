@@ -20,6 +20,7 @@ for (i = 0; i < n ; i++)
         	break;
 	printf("%d, ", i * j);
 	}
+	printf("\n");
 }
 printf("\n");
 }
