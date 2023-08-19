@@ -21,7 +21,7 @@ for (i = 0; i <= n ; i++)
 	}
 	if ( j != n)
 	{
-		printf("%d,  ", i * j);
+		printf("%d, ", i * j);
 	}
 	else
 		printf("%d", i * j);
