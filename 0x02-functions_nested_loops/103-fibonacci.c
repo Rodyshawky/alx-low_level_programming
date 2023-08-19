@@ -9,20 +9,19 @@ int main(void)
 {
 int n = 1;
 int x = 1;
-int swap;
-double sum = 0;
+int i, swap;
+int  sum = 0;
 
-while (sum < 4000000)
+for (i = 1; i <= 32; i++)
 {
 swap = x;
 x = n;
 n = swap + x;
 if (n % 2 == 0)
 {
-sum += n;
+sum = sum + n;
 }
-printf("%f", sum);
 }
-printf("\n");
+printf("%d \n", sum);
 return (0);
 }
