@@ -9,15 +9,17 @@
 
 void print_times_table(int n)
 {
-int i;
+int i, j;
 
 for (i = 0; i < n ; i++)
 {
-	if (n <= 0 || n > 15)
-		printf("0.0");
+	for (j = 0; j < n ; j++)
+	{
+	 printf("0, ");
+	if (n <= 0 || n > )
         	break;
-	printf("0, ");
 	printf("%d, ", i);
+	}
 }
 printf("\n");
 }
