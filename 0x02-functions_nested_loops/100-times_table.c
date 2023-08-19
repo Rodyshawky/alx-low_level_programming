@@ -13,11 +13,11 @@ int i, j;
 
 for (i = 0; i <= n ; i++)
 {
+	 printf("0, ");
 	for (j = 0; j <= n; j++)
 	{
 	if (n == 0 || n > 15)
         break;
-	printf("0, ");
 	printf("%d, ", i*j);
 	if (n == 0 || n > 15)
 	break;
