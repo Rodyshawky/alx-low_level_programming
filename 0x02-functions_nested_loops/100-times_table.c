@@ -16,7 +16,7 @@ for (i = 0; i < n ; i++)
 	printf("0, ");
 	for (j = 0; j < n ; j++)
 	{
-	if (n <= 0 || n > 15)
+	if (n < 0 || n > 15)
         	break;
 	printf("%d, ", i * j);
 	}
