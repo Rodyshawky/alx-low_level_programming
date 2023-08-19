@@ -17,7 +17,7 @@ int main(void)
 	swap = x;
 	x = n;
 	n = swap + x;
-	printf("%d", n);
+	printf("%d ,", n);
 	}
 return (0);
 }
