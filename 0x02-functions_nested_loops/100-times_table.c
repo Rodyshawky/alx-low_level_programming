@@ -9,19 +9,16 @@
 
 void print_times_table(int n)
 {
-int i, j;
+int i;
 
 for (i = 0; i <= n; i++)
 {
-	for (j = 0; j <= n; j++)
-	{
 	if (n == 0 || n > 15)
         break;
 	printf("0, ");
-	printf("%d, ", i);
+	printf("%d, ", i*2);
 	if (n == 0 || n > 15)
 	break;
-	}
 	printf("\n");
 }
 }
