@@ -12,11 +12,13 @@ int main(void)
 	int i, swap;
 
 	printf("%d ,", n);
-	for (i = 1; i <= 50; i++)
+	for (i = 1; i < 50; i++)
 	{
 	swap = x;
 	x = n;
 	n = swap + x;
+	if(n <= 0)
+		continue;
 	printf("%d ,", n);
 	}
 return (0);
