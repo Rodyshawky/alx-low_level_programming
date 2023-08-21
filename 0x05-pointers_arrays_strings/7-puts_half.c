@@ -17,7 +17,7 @@ len++;
 }
 	for (i = len / 2; i < len; i++)
 	{
-	printf("%c", str[i]);
+	_putchar(str[i]);
 	}
 printf("\n");
 }
