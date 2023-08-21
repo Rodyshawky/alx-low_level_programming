@@ -13,7 +13,7 @@ while (s[i] != '\0')
 	i++;
 while (i > 0)
 {
-putchar(s[i] + 0);
+putchar(s[i]);
 i--;
 }
 _putchar('\n');
