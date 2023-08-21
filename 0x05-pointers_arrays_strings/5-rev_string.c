@@ -17,8 +17,8 @@ i++;
 }
 for (j = 0; j < i / 2; j++)
 {
-swap = s[i];
-s[i] = s[i - 1 - j];
+swap = s[j];
+s[j] = s[i - 1 - j];
 s[i - 1 - j] = swap;
 }
 }
