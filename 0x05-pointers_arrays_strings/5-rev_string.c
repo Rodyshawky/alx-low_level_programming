@@ -14,10 +14,9 @@ while (s[i] != '\0')
 {
 i++;
 }
-while (i > 0)
+while (i--)
 {
-i--;
 s[j] = s[i];
-j++;
+++j;
 }
 }
