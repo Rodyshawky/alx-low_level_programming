@@ -9,21 +9,20 @@
 
 void puts_half(char *str)
 {
-int i, j, k;
 int len;
 
-for (i = 0; str[i] != '\0'; i++)
+for (int i = 0; str[i] != '\0'; i++)
 {
 len++;
 }
 if (len % 2 == 1)
 {
-	for (j = (len - 1) / 2; j < len; j++)
+	for (int j = (len - 1) / 2; j < len; j++)
 		printf("%c", str[j]);
 }
 else
 {
-	for (k = len / 2; k < len; k++)
+	for (int k = len / 2; k < len; k++)
 	{
 	printf("%c", str[k]);
 	}
