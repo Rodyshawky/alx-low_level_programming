@@ -17,7 +17,7 @@ len++;
 }
 	for (i = (len / 2); i < len; i++)
 	{
-	_putchar(str[i]);
+	_putchar(str[i] + 0);
 	}
 _putchar('\n');
 }
