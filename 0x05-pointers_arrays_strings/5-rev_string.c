@@ -14,7 +14,7 @@ while (s[i] != '\0')
 {
 i++;
 }
-while (i > 0 && j < i)
+while (i > 0)
 {
 i--;
 s[j] = s[i];
