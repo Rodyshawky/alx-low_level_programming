@@ -15,9 +15,9 @@ for (i = 0; str[i] != '\0'; i++)
 {
 len++;
 }
-for (i = len / 2; i < len; i++)
+for ( len /= 2; str[len] != '\0'; len++)
 {
-_putchar(str[i]);
+_putchar(str[len]);
 }
 _putchar('\n');
 }
