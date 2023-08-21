@@ -15,9 +15,9 @@ for (i = 0; str[i] != '\0'; i++)
 {
 len++;
 }
-	for (i = len / 2; i < len; i++)
+	for (i = (len / 2); i < len; i++)
 	{
 	_putchar(str[i]);
 	}
-printf("\n");
+_putchar('\n');
 }
