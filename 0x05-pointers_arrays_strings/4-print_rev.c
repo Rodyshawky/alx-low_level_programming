@@ -11,10 +11,10 @@ int i = 0;
 
 while (s[i] != '\0')
 	i++;
-while (i > 0)
+while (i >= 0)
 {
+--i;
 putchar(s[i]);
-i--;
 }
 _putchar('\n');
 }
