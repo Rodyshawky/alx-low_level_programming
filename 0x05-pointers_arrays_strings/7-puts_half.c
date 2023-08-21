@@ -18,8 +18,8 @@ len++;
 }
 if (len % 2 == 1)
 {
-	for (i = (len - 1) / 2; i < len; i++)
-		printf("%c", str[i]);
+	for (j = (len - 1) / 2; j < len; j++)
+		printf("%c", str[j]);
 }
 else
 {
