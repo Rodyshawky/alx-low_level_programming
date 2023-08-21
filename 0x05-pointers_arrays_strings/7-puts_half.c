@@ -9,10 +9,10 @@
 
 void puts_half(char *str)
 {
-int i, j;
+int i, j, k;
 int len;
 
-while (*str != '\0')
+for (i = 0; str[i] != '\0'; i++)
 {
 len++;
 }
@@ -23,9 +23,9 @@ if (len % 2 == 1)
 }
 else
 {
-	for (j = len / 2; j < len; j++)
+	for (k = len / 2; k < len; k++)
 	{
-	printf("%c", str[j]);
+	printf("%c", str[k]);
 	}
 }
 printf("\n");
