@@ -8,6 +8,6 @@
 
 void _puts(char *str)
 {
-for (; *s != '\0'; s++)
-	_putchar(*s + 48);
+for (; *str != '\0'; str++)
+	_putchar(*str + 48);
 }
