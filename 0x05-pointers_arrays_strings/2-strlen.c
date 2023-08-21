@@ -12,6 +12,6 @@ int i;
 int x;
 
 i = sizeof(s);
-x = i / 4;
+x = i / 2;
 return (x);
 }
