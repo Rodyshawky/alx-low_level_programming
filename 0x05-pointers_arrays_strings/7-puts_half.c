@@ -16,9 +16,17 @@ while (*str != '\0')
 {
 len++;
 }
-for (i = len / 2; i < len; i++)
+if (len % 2 == 1)
 {
-printf("%d", str[i]);
+	for (i = (len - 1) / 2; i < len; i++)
+		printf("%c", str[i]);
+}
+else
+{
+	for (i = len / 2; i < len; i++)
+	{
+	printf("%c", str[i]);
+	}
 }
 printf("\n");
 }
