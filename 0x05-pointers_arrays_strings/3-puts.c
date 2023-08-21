@@ -16,6 +16,6 @@ for (; *str != '\0'; str++)
 len++;
 }
 for (i = 0; i < len; i++)
-	_putchar(str[i]) + 48;
+	_putchar(str[i] + 48);
 _putchar('\n');
 }
