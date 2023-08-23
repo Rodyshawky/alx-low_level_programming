@@ -2,11 +2,11 @@
 #include"main.h"
 
 /**
- * _strcat - concatenates two strings by n.
+ * _strncat - concatenates two strings by n.
  * @dest: input pointer
  * @src: input string
  * @n: input number
- * Return: pointer of dest
+ * Return: pointer of array
  */
 
 char *_strncat(char *dest, char *src, int n)
