@@ -21,5 +21,6 @@ for (i = 0; src[i] != '\0'; i++)
 srclen++;
 for (i = 0; n && src[i] != '\0'; i++)
 dest[destlen + i] = src[i];
+dest[destlen + i] = '\0';
 return (dest);
 }
