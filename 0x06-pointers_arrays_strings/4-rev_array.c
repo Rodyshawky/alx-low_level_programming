@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * _strcmp -reverses the content of an array of integers
+ * _reverse_array -reverses the content of an array of integers
  * @a: input pointer
  * @n: input number
  * Return: 0 if success
