@@ -21,5 +21,6 @@ len++;
 		dest[len] = src[i];
 		len++;
 	}
+dest[len] = '\0';
 return (dest);
 }
