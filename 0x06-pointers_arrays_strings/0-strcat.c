@@ -17,7 +17,7 @@ while (*dest != '\0')
 len++;
 while (*src != '\0')
 size++;
-	for (i = len - 1; i < len + size + 1; i++)
+	for (i = len - 1; i < len + size; i++)
 	{
 		dest[i] == src[n];
 		n++;
