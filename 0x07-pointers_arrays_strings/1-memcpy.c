@@ -5,7 +5,7 @@
  * _memcpy -copies memory area
  * @dest: pointer input
  * @src: pointer input
- * @n: input number 
+ * @n: input number
  * Return: pointer dest
  */
 
