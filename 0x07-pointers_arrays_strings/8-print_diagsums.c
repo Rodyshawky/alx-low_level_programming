@@ -2,13 +2,13 @@
 
 
 /**
- * print_diagsums - prints the sum of the two diagonals of a square matrix of integers.
- * @a: input pointer 
+ * print_diagsums - prints the sum of the two diagonals of a square matrix.
+ * @a: input pointer
  * @size: input number
  * Return: On success 0.
  */
 
-void print_diagsums(int *a , int size)
+void print_diagsums(int *a, int size)
 {
 int i;
 int sum1 = 0;
