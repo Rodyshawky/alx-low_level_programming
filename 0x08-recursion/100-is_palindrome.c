@@ -31,5 +31,8 @@ int is_palindrome(char *s)
 int len;
 
 len = strlen(s);
-return (check_palindrome(s, 0, len - 1));
+if (len == 0 || len == 1)
+	return (1);
+else
+	return (check_palindrome(s, 0, len - 1));
 }
