@@ -2,19 +2,20 @@
 #include"main.h"
 
 /**
- * factorial - get factorial of n.
- * @n: input number
- * Return: factorial of n.
+ * _pow_recursion - get x power of y
+ * @x: input number
+ * @y: input number
+ * Return: x power of y.
  */
-int factorial(int n)
+int _pow_recursion(int x, int y)
 {
-int fact = 1;
+int pow = 1;
 
-if (n < 0)
+if (y < 0)
 return (-1);
-else if (n == 0)
+else if (y == 0)
 return (1);
 else
-fact = n * factorial(n - 1);
-return (fact);
+pow = x *  _pow_recursion(x , y - 1);
+return (pow);
 }
