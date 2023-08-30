@@ -2,25 +2,31 @@
 #include"main.h"
 
 /**
- * _sqrt__recursion - get sqrt of n
+ * check_sqrt- retur square root of n.
+ * @n: input number
+ * @num: number to check
+ * Return: square root of number n
+ */
+
+int check_sqrt(int n, int num)
+{
+if (n * n == num)
+return (n);
+if (n * n > num)
+return (-1);
+return (check_sqrt(n + 1, num));
+}
+
+/**
+ * _sqrt_recursion- get the sqrt of n
  * @n: input number
  * Return: sqrt of n.
  */
-
-int check_base(int n, int base)
-{
-        if (n * n == base)
-                return (n);
-        if (n * n > base)
-                return (-1);
-        return (check_base(n + 1, base));
-}
 
 int _sqrt_recursion(int n)
 {
 if (n < 0)
 return (-1);
 else
-return (check_base(1, n));
+return (check_sqrt(1, n));
 }
-
