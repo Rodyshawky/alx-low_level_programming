@@ -12,8 +12,8 @@
 
 int check_palindrome(char *s, int l, int r)
 {
-if (l >= r)
-return (0);
+if (l >= r )
+return (1);
 else if (s[l] == s[r])
 return (check_palindrome(s, l + 1, r - 1));
 else
