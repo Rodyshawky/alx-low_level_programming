@@ -11,14 +11,22 @@
 
 int main(int argc, char *argv[])
 {
-int i;
 int sum = 0;
+char *c;
 
 if (argc < 2)
 printf("0\n");
-for (i = 0; i < argc; i++)
+while (--argc)
 {
-	sum += atoi(argv[i]);
+	for (c = argv[argc]; *c; c++)
+	{
+		if (*c < '0' || *c > '9')
+		{
+			printf("Error\n");
+			return (1);
+		}
+	sum += atoi(argv[argc]);
+	}
 }
 printf("%d\n", sum);
 return (0);
