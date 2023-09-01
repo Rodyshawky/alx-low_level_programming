@@ -2,29 +2,28 @@
 #include <stdlib.h>
 
 /**
- * main - prints the min number of coins to make change
- * for an amount of money
- * @argc: argument count
- * @argv: arguments
+ * main - prints the smallest  number of coin
+ * @argc: count of command
+ * @argv: array string of input
  * Return: 0
  */
 int main(int argc, char **argv)
 {
 	int total, count;
 	unsigned int i;
-	char *p;
+	char *ptr;
 	int cents[] = {25, 10, 5, 2};
 
-	if (argc != 2)
+	if (argc <= 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
 
-	total = strtol(argv[1], &p, 10);
+	total = strtol(argv[1], &ptr, 10);
 	count = 0;
 
-	if (!*p)
+	if (*ptr != '\0)
 	{
 		while (total > 1)
 		{
