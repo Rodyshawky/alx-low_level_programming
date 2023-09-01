@@ -1,10 +1,10 @@
 #include<stdio.h>
 
 /**
- * main - Entry point
- *@argc - count of command line
- @argv - pointer array string
- * Return: Always 0 (Success)
+ * main - Prints the number of arguments passed into main
+ * @argc: Number of command line arguments
+ * @argv: Array name
+ * Return: 0
  */
 
 int main(int argc, char *argv[])
