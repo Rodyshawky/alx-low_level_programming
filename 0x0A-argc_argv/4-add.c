@@ -9,22 +9,31 @@
  * Return: 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-int sum = 0;
-char *c;
+	int i, x, sum = 0;
+	char *c;
 
-while (--argc)
-{
-	for (c = argv[argc]; *c; c++)
-		if (*c < '0' || *c > '9')
+	if (argc < 2)
+	{
+		printf("0\n");
+		return (0);
+	}
+
+	for (i = 1; argv[i]; i++)
+	{
+		x = strtol(argv[i], &c, 10);
+		if (*c)
 		{
 			printf("Error\n");
 			return (1);
 		}
 		else
-			sum += atoi(argv[argc]);
-}
-printf("%d\n", sum);
-return (0);
+		{
+			sum += x;
+		}
+	}
+	printf("%d\n", sum);
+
+	return (0);
 }
