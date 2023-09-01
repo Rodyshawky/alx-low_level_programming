@@ -14,7 +14,7 @@ int main(int argc, char **argv)
 	char *ptr;
 	int cents[] = {25, 10, 5, 2};
 
-	if (argc <= 2)
+	if (argc != 2)
 	{
 		printf("Error\n");
 		return (1);
@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 	total = strtol(argv[1], &ptr, 10);
 	count = 0;
 
-	if (*ptr != '\0')
+	if (!(*ptr))
 	{
 		while (total > 1)
 		{
