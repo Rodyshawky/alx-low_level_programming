@@ -23,7 +23,7 @@ int main(int argc, char **argv)
 	total = strtol(argv[1], &ptr, 10);
 	count = 0;
 
-	if (*ptr != '\0)
+	if (*ptr != '\0')
 	{
 		while (total > 1)
 		{
