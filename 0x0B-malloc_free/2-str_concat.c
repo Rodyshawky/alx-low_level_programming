@@ -26,9 +26,8 @@ s = (char *) malloc(len * sizeof(char));
 if (s == NULL)
         return (NULL);
 for (i = 0; i < size1; i++)
-        s = s1[i];
+        s[i] = s1[i];
 for (i = size1; i < len; i++)
-        s = s2[i];
+        s[i] = s2[i];
 return (s);
-}
 }
