@@ -15,30 +15,10 @@ int size1 = 0;
 int size2 = 0;
 int i, j, len;
 
-if (s1 == NULL && s2 == NULL)
-{
-	return (NULL);
-}
 size1 = strlen(s1);
 size2 = strlen(s2);
 len = size1 + size2 + 1;
 s = (char *) malloc(len * sizeof(char));
-if (s1 == NULL)
-{
-	for (i = 0; i < size2; i++)
-{
-        s[i] = s2[i];
-}
-	return (s);
-}
-	else if (s2 == NULL)
-{
-        for (i = 0; i < size1; i++)
-{
-        s[i] = s1[i];
-}
-        return (s);
-}
 if (s == NULL)
 return (NULL);
 for (i = 0; i < size1; i++)
