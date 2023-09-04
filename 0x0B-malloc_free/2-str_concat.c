@@ -15,17 +15,19 @@ int size1 = 0;
 int size2 = 0;
 int i, j, len;
 
+if (*s1 == '\0' && *s2 == '\0')
+	return (NULL);
 size1 = strlen(s1);
 size2 = strlen(s2);
 len = size1 + size2 + 1;
 s = (char *) malloc(len *sizeof(char));
 if (s == NULL)
 return (NULL);
-for (i = 0; i < size1 + 1; i++)
+for (i = 0; i < size1 ; i++)
 {
 	s[i] = s1[i];
 }
-for (j = 0; j < size2 + 1 && i < len; j++)
+for (j = 0; j < size2 && i < len; j++)
 {
 	s[i] = s2[j];
 	i++;
