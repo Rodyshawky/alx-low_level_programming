@@ -22,7 +22,7 @@ if (str == NULL)
 size = strlen(str);
 if (size <= 0)
 {
-	return (1);
+	return (NULL);
 }
 else
 {
