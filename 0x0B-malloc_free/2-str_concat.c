@@ -21,6 +21,9 @@ size1 = strlen(s1);
 size2 = strlen(s2);
 len = size1 + size2 + 1;
 s = (char *) malloc(len *sizeof(char));
+if (*s1 == '\0')
+	s = s2;
+	return (s);
 if (s == NULL)
 return (NULL);
 for (i = 0; i < size1 ; i++)
