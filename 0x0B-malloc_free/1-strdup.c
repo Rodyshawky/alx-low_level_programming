@@ -20,10 +20,10 @@ if (str == NULL)
 	return (NULL);
 }
 size = strlen(str);
-if (size  <= 0)
-	return (NULL);
-
 s = (char *) malloc(size *sizeof(char));
+if (size  <= 0)
+	free(s);
+        return (NULL);
 for (i = 0; i < size; i++)
 	s[i] = str[i];
 return (s);
