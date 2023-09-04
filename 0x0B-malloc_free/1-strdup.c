@@ -23,15 +23,11 @@ while (*str != '\0')
 {
 size++;
 }
+if (size  <= 0)
+	return (NULL);
+
 s = (char *) malloc(size *sizeof(char));
-if (str == NULL)
-{
-return (NULL);
-}
-else
-{
 for (i = 0; i < size; i++)
 	s[i] = str[i];
 return (s);
-}
 }
