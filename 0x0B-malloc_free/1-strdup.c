@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-
+#include <string.h>
 /**
  * _strdup - get a pointer of string given as parameter
  *
@@ -19,10 +19,7 @@ if (str == NULL)
 {
 	return (NULL);
 }
-while (*str != '\0')
-{
-size++;
-}
+size = strlen(str);
 if (size  <= 0)
 	return (NULL);
 
