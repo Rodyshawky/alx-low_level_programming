@@ -20,13 +20,13 @@ if (str == NULL)
 	return (NULL);
 }
 size = strlen(str);
-if (size <= 0)
+if (size < 0)
 {
 	return (NULL);
 }
 else
 {
-s = (char *) malloc(size * sizeof(char) + 1);
+s = (char *) malloc(size *sizeof(char) + 1);
 if (s == NULL)
 	return (NULL);
 for (i = 0; i < size + 1; i++)
