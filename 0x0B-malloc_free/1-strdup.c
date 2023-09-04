@@ -19,18 +19,18 @@ if (str == NULL)
 {
 	return (NULL);
 }
-for (i = 0; *str != '\0'; i++)
+while (*str != '\0')
 {
 size++;
 }
 s = (char *) malloc(size *sizeof(char));
-if (s == NULL)
+if (str == NULL)
 {
 return (NULL);
 }
 else
 {
-for (i = 0; i < size + 1; i++)
+for (i = 0; i < size; i++)
 	s[i] = str[i];
 return (s);
 }
