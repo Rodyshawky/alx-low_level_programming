@@ -26,7 +26,7 @@ if (size <= 0)
 }
 else
 {
-s = (char *) malloc(size + 1 *sizeof(char));
+s = (char *) malloc(size + 1 * sizeof(char));
 for (i = 0; i < size + 1; i++)
 	s[i] = str[i];
 return (s);
