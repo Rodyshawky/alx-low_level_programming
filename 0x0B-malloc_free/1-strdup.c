@@ -22,12 +22,12 @@ if (str == NULL)
 size = strlen(str);
 if (size <= 0)
 {
-	return (NULL);
+	return (1);
 }
 else
 {
 s = (char *) malloc(size *sizeof(char));
-for (i = 0; i < size + ; i++)
+for (i = 0; i < size + 1; i++)
 	s[i] = str[i];
 return (s);
 }
