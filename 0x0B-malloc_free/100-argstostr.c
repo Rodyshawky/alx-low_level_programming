@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
-
+#include <string.h>
 /**
  * *argstostr - convert arguments on command line to strings
  * @ac: input number
@@ -11,11 +11,39 @@
 char *argstostr(int ac, char **av)
 {
 char *s;
-int i, j;
+int i, j, size;
+int len = 0;
 
-s = (char *) malloc(ac * sizeof(char));
+if (ac == 0 || av == NULL)
+	{
+		return (NULL);
+	}
+
+	for (i = 0; i < ac; i++)
+	{
+		for (j = 0; av[i][j] != '\0'; j++)
+		{
+			size += 1;
+		}
+		size += 1;
+	}
+	size += 1;
+
+	s = malloc(sizeof(char) * size);
+	if (s == NULL)
+	{
+		free(s);
+		return (NULL);
+	}
 for (i = 0; i < ac; i++)
-	for (j = 0; j < ac; j++)
-	s[i] = av[i][j];
+	{
+		for (j = 0; av[i][j] != '\0'; j++)
+		{
+			s[len] = av[i][j];
+			len++;
+		}
+		s[len] = '\n';
+		len++;
+	}
 return (s);
 }
