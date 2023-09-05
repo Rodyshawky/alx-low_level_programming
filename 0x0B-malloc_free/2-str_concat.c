@@ -34,5 +34,6 @@ for (j = 0; j < size2 && i < len; j++)
 	s[i] = s2[j];
 	i++;
 }
+s[i] = '\0';
 return (s);
 }
