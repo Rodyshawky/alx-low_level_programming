@@ -49,7 +49,7 @@ return (w);
 }
 
 /**
- * strtow: splits a string into words.
+ * *strtow: splits a string into words.
  * @str: pointer to array
  * Return: string ,NULL if not
  */
