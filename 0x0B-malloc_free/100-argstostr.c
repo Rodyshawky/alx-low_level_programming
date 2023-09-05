@@ -16,9 +16,7 @@ int i, j;
 int len = 0;
 
 if (ac == 0 || av == NULL)
-	{
-		return (NULL);
-	}
+	return (NULL);
 	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; av[i][j] != '\0'; j++)
@@ -35,14 +33,14 @@ if (ac == 0 || av == NULL)
 		return (NULL);
 	}
 for (i = 0; i < ac; i++)
+{
+	for (j = 0; av[i][j] != '\0'; j++)
 	{
-		for (j = 0; av[i][j] != '\0'; j++)
-		{
-			s[len] = av[i][j];
-			len++;
-		}
-		s[len] = '\n';
+		s[len] = av[i][j];
 		len++;
 	}
+	s[len] = '\n';
+	len++;
+}
 return (s);
 }
