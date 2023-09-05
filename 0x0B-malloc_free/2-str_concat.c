@@ -15,8 +15,10 @@ int size1 = 0;
 int size2 = 0;
 int i, j, len;
 
-if (*s1 == '\0' && *s2 == '\0')
-	return (NULL);
+if (s1 == NULL)
+s1 = '\0';
+if (s2 == NULL)
+s2 = '\0';
 size1 = strlen(s1);
 size2 = strlen(s2);
 len = size1 + size2 + 1;
