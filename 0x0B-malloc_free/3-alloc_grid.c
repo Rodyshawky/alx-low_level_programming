@@ -14,7 +14,7 @@ int **s;
 int i, j;
 
 if (height <= 0 || width <= 0)
-        return (NULL);
+	return (NULL);
 s = malloc(height * sizeof(int *));
 if (s == NULL)
 {
