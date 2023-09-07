@@ -23,7 +23,7 @@ if (str == NULL)
 }
 else
 {
-for (i = min; i < max; i++)
+for (i = min; i <= max; i++)
 {
 	str[j] = i;
 	j++;
