@@ -19,9 +19,11 @@ if (s1 == NULL)
 	s1 = "";
 if (s2 == NULL)
 	s2 = "";
-while (*s1 != '\0')
+for (i = 0; s1[i] != '\0'; i++)
+{
 	len++;
-s = (char*) malloc(len + n *sizeof(char));
+}
+s = (char*) malloc(len + 1 + n *sizeof(char));
 if (s == NULL)
 	return (NULL);
 for (i = 0; i < len; i++)
@@ -33,5 +35,6 @@ for (j = 0; j < n; j++)
 	s[i] = s2[j];
 	i++;
 }
+s[i] = '\0';
 return (s);
 }
