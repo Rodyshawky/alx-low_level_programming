@@ -31,10 +31,6 @@ if (n < len2)
 {
 s = malloc(len1 + n + 1);
 }
-else
-{
-s = malloc(len1 + len2 + 1);
-}
 for (i = 0; i < len1; i++)
 {
 	s[i] = s1[i];
