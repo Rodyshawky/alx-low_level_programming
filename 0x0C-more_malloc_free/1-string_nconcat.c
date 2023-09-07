@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 /**
-*string_nconcat - Concatenates two strings 
+*string_nconcat - Concatenates two strings
 *@s1: input string.
 *@s2: input string.
 *@n: input number
@@ -23,14 +23,14 @@ for (i = 0; s1[i] != '\0'; i++)
 {
 	len++;
 }
-s = (char*) malloc(len + 1 + n *sizeof(char));
+s = malloc(len + 1 * sizeof(char));
 if (s == NULL)
 	return (NULL);
 for (i = 0; i < len; i++)
 {
 	s[i] = s1[i];
 }
-for (j = 0; j < n; j++)
+for (j = 0; s2[j] && j < n; j++)
 {
 	s[i] = s2[j];
 	i++;
