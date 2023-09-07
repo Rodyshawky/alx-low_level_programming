@@ -24,6 +24,8 @@ for (i = 0; s1[i]; i++)
 	len++;
 }
 s = malloc((len + 1) * sizeof(char));
+if (s == NULL)
+	return (NULL);
 for (i = 0; s1[i]; i++)
 {
 	s[i] = s1[i];
