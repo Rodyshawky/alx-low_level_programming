@@ -26,7 +26,7 @@ for (i = 0; s1[i]; i++)
 s = malloc((len + 1) * sizeof(char));
 for (i = 0; s1[i]; i++)
 {
-	s[i++] = s1[i];
+	s[i] = s1[i];
 }
 for (j = 0; j < n && s2[j]; j++)
 {
