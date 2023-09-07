@@ -15,7 +15,7 @@ int i;
 int j = 0;
 
 if (min > max)
-	return (NULL); 
+	return (NULL);
 str = malloc(sizeof(*str) * ((max - min) + 1));
 if (str == NULL)
 {
