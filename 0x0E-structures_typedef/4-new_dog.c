@@ -28,7 +28,8 @@ if (d->name == NULL)
 d->owner = malloc(sizeof(char) * (strlen(owner) + 1));
 if (d->owner == NULL)
 {
-	free(d->owner);
+	free(d->name);
+	free(d);
 	return (NULL);
 }
 strcpy(d->name, name);
