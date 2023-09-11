@@ -10,8 +10,8 @@
 
 void print_dog(struct dog *d)
 {
-if (d != NULL)
-{
+	if (d == NULL)
+		return;
 	if (d->name == NULL)
 	{
 		printf("nil\n");
@@ -36,9 +36,4 @@ if (d != NULL)
 	{
 		printf("Owmer: %s\n", d->name);
 	}
-}
-else 
-{
-	return;
-}
 }
