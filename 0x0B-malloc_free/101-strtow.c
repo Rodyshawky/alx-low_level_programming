@@ -3,6 +3,12 @@
 #include <string.h>
 
 /**
+ * *strtow: splits a string into words.
+ * @str: pointer to array
+ * Return: string ,NULL if not
+ */
+
+/**
 * len -length of str
 *@str: string input
 * Return: length of the string
