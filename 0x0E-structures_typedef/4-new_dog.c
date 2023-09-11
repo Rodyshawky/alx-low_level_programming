@@ -22,7 +22,7 @@ if (d == NULL)
 d->name = malloc(sizeof(char) * (strlen(name) + 1));
 if (d->name == NULL)
 {
-	free(d->name);
+	free(d);
 	return (NULL);
 }
 d->owner = malloc(sizeof(char) * (strlen(owner) + 1));
