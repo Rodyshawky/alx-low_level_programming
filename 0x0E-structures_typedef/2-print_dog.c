@@ -14,7 +14,7 @@ if (d != NULL)
 {
 	if (d->name == NULL)
 	{
-		printf("nil");
+		printf("nil\n");
 	}
 	else
 	{
@@ -22,7 +22,7 @@ if (d != NULL)
 	}
 	if (d->age < 0)
 	{
-		printf("nil");
+		printf("nil\n");
 	}
 	else
 	{
@@ -30,11 +30,15 @@ if (d != NULL)
 	}
 	if (d->owner == NULL)
 	{
-		printf("nil");
+		printf("nil\n");
 	}
 	else
 	{
 		printf("Owmer: %s\n", d->name);
 	}
+}
+else 
+{
+	return;
 }
 }
