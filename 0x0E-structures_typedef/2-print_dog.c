@@ -33,7 +33,7 @@ if (d != NULL)
 	}
 	else
 	{
-		printf("Owmer: %s\n", d->owner);
+		printf("Owner: %s\n", d->owner);
 	}
 }
 }
