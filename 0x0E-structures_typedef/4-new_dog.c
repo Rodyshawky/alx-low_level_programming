@@ -20,16 +20,16 @@ d = malloc(sizeof(dog_t));
 if (d == NULL)
 	return (NULL);
 d->name = malloc(sizeof(char) * (strlen(name) + 1));
-if(d->name == NULL)
+if (d->name == NULL)
 {
 	free(d->name);
-	return(NULL);
+	return (NULL);
 }
 d->owner = malloc(sizeof(char) * (strlen(owner) + 1));
-if(d->owner == NULL)
+if (d->owner == NULL)
 {
-        free(d->owner);
-        return(NULL);
+	free(d->owner);
+	return (NULL);
 }
 strcpy(d->name, name);
 d->age = age;
