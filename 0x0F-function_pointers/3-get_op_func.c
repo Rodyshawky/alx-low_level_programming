@@ -18,6 +18,7 @@ int (*get_op_func(char *s))(int, int)
 	};
 
 	int i = 0;
+
 	while (op_s[i].op)
 	{
 		if (*(op_s[i].op) == *s)
