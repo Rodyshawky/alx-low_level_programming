@@ -10,12 +10,12 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list ls;
-	unsigned int i ;
+	unsigned int i;
 	char *s, *p;
 
 	if (separator == NULL || *separator == 0)
 		s = "";
-	else 
+	else
 		s = (char *) separator;
 	va_start(ls, n);
 	if (n > 0)
