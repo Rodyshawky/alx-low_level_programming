@@ -16,6 +16,5 @@ size_t list_len(const list_t *h)
 		num_elem++;
 		h = h->next;
 	}
-	printf("%ld", num_elem);
 	return (num_elem);
 }
