@@ -1,7 +1,7 @@
 #include "lists.h"
 #include<stdlib.h>
 /**
- * add_nodeint - a function that add node
+ * add_nodeint - a function that add node at the begining
  * @head: struct
  * @n: number
  * Return: pointer to address of new node or NULL if it failed

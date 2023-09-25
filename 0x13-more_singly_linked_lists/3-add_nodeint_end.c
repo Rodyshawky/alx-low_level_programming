@@ -1,5 +1,11 @@
 #include"lists.h"
 #include<stdlib.h>
+/**
+ * add_nodeint_end - a function that add node at the end
+ * @head: struct
+ * @n: number
+ * Return: pointer to address of new node or NULL if it failed
+ */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
 	listint_t *h, *t;
@@ -17,7 +23,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		return (h);
 	}
 	t = *head;
-	while (t-> next != NULL)
+	while (t->next != NULL)
 	{
 		t = t->next;
 	}
