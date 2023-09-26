@@ -4,7 +4,7 @@
  * delete_nodeint_at_index - delete node at index in list
  *
  * @head: head of list
- * @index: index to add node at, starting at 0
+ * @index: index to deleted node starting at 0
  * Return: 1 if success,-1 otherwise
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
