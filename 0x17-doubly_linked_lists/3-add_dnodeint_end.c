@@ -1,6 +1,6 @@
 #include"lists.h"
 /**
- * *add_dnodeint_end - add new node at the end
+ * add_dnodeint_end - add new node at the end
  * @head: instance of struct
  * @n : number
  * Return: address of new node
