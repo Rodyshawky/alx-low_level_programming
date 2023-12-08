@@ -1,6 +1,6 @@
 #include"lists.h"
 /**
- * dlistint_len - print all node
+ * dlistint_len - number of nodes
  * @h: instance of struct
  * Return: number of nodes
  */
